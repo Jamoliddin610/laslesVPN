@@ -179,7 +179,6 @@ body{
 .main .container{
     width: 1155px;
     padding: 80px 25px;
-    border: solid 1px black;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
