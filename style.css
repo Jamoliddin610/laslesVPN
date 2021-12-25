@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
+body{
+    font-family: 'Rubik',sans-serif;
+}
+.head-box{
+    width: 1140px;
+}
+.page-head{
+    padding: 45px 0;
+    margin-bottom: 35px;
+}
+.header-items{
+    margin-right: 40px;
+    list-style: none;
+}
+.up{
+    margin-right: 0;
+    border: 1px solid #F53855;
+    box-sizing: border-box;
+    border-radius: 50px;
+    padding: 13px 45px;
+    color: #F53855;
+    font-weight: 500;
+}
+.up:hover {
+    color: white;
+    background-color:#F53855;
+    box-shadow: #F53855 0px 2px 8px;
+}
+
+
+.header-link{
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4F5665;
+}
+
+.in{
+     color: #4F5665;
+     font-weight: 500;
+}
+.less{
+    margin-right: 30px;
+}
+.hero-box{
+    width: 1207px;
+    margin-bottom: 100px;
+}
+.hero-img{
+    background-image: url('./imgs/girl-apps.svg');
+    background-size: contain;
+    height: 383px;
+}
+.hero-title{
+    padding: 28px 41px 25px 30px;
+}
+.hero-h1{
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 70px;
+    color: #0b132a;
+    margin-bottom:20px ;
+}
+.hero-paragraph{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4f5665;
+    margin-bottom: 50px;
+}
+.hero-link{
+    background: #f53838;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    color: #fff;
+    text-decoration: none;
+    padding: 17.5px 77.5px;
+    box-shadow: 0 30px 10px -20px rgba(245, 56, 56, 0.35);
+
+}
+.stat-box{
+    width: 1140px;
+    height: 200px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 37px 0;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 40px 80px -5px;
+}
+
+.stat-items  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 125px;
+    align-items: center;
+}
+.stat-items:not(:first-child){
+    border-left: 2px solid #eeeff2;
+}
+.stat-list{
+    list-style: none;
+    background: #fff;
+    border-radius: 10px;
+}
+.name{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4f5665;
+}
+.number{
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: #0b132a;
+}
+.gm{
+    margin-right: 35px;
+}
